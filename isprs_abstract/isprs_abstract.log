@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.30)  2 JUN 2026 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.30)  2 JUN 2026 20:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -516,10 +516,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `isprs_abstract.out' has not changed.
 (rerunfilecheck)             Checksum: 54DDCEDA98F47E39BE538641F0A63EA4;1240.
  ) 
@@ -542,7 +538,7 @@ rograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on isprs_abstract.pdf (2 pages, 564981 bytes).
+Output written on isprs_abstract.pdf (2 pages, 564940 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)

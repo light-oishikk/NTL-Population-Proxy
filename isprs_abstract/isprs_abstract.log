@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.30)  2 JUN 2026 20:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.30)  2 JUN 2026 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -487,6 +487,9 @@ Package pdftex.def Info: scatter.png  used on input line 91.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1{C:/Users/ok790/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/o
 k790/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
@@ -513,17 +516,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `isprs_abstract.out' has not changed.
 (rerunfilecheck)             Checksum: 54DDCEDA98F47E39BE538641F0A63EA4;1240.
  ) 
 Here is how much of TeX's memory you used:
  11849 strings out of 474486
  190287 string characters out of 5743754
- 1949542 words of memory out of 5000000
+ 1948542 words of memory out of 5000000
  33966 multiletter control sequences out of 15000+600000
  575340 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,865b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,990b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ok790/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/ok790/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi9.pfb><C:/Users/ok790/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -535,7 +542,7 @@ rograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on isprs_abstract.pdf (2 pages, 564666 bytes).
+Output written on isprs_abstract.pdf (2 pages, 564981 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)

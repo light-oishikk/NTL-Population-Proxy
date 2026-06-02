@@ -50,7 +50,7 @@ Oishik Kar$^{1}$, Sunil C K$^{1}$\vspace{4pt}
 
 \textbf{Abstract.}\vspace{4pt}
 
-We propose a data-driven urban-rural stratification method using KMeans clustering ($k{=}2$) on district-level VIIRS night-time light (NTL) features to improve population estimation. The method requires no census or land-cover inputs. Evaluated on 670 Indian districts and 695 Nigerian Local Government Areas with 5-fold cross-validation, stratification raises $R^2$ from 0.829 to 0.858 in India ($p{=}0.027$) and from 0.168 to 0.251 in Nigeria ($p{=}0.004$, +50\% relative gain). Ablation experiments confirm that NTL density normalisation is counter-productive, NDVI correction fails in tropical regions, and $k{=}2$ is optimal. All code and data are openly available.
+We propose a fully data-driven urban-rural stratification method using unsupervised KMeans clustering ($k{=}2$) on district-level VIIRS night-time light (NTL) features to significantly improve sub-national population proxy estimation. Crucially, the proposed method requires absolutely no auxiliary census data or land-cover inputs, making it highly scalable. Evaluated on 670 Indian districts and 695 Nigerian Local Government Areas using 5-fold cross-validation, the stratification approach raises the predictive $R^2$ from 0.829 to 0.858 in India ($p{=}0.027$) and from 0.168 to 0.251 in Nigeria ($p{=}0.004$, representing a +50\% relative gain). Furthermore, rigorous ablation experiments confirm that area-based NTL density normalisation is counter-productive, standard NDVI vegetation correction fails in densely populated tropical regions, and a cluster count of $k{=}2$ remains optimal. All code and pre-processed datasets are openly available for public use.
 
 \vspace{12pt}
 ]

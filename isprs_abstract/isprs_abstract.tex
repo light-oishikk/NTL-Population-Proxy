@@ -2,7 +2,7 @@
 % 1st ISPRS SC Virtual Symposium 2026 — Extended Abstract
 % ISPRS Format: Title (1-col) → Authors → Keywords → Abstract → Body (2-col)
 % ============================================================================
-\documentclass[a4paper, 9pt]{article}
+\documentclass[a4paper, 9pt, twocolumn]{article}
 
 % --- ISPRS page layout: A4, margins 25mm top/bottom, 20mm left/right ---
 \usepackage[a4paper, top=25mm, bottom=25mm, left=20mm, right=20mm]{geometry}
@@ -12,7 +12,6 @@
 \usepackage{amsmath}
 \usepackage{booktabs}
 \usepackage{url}
-\usepackage{multicol}
 \usepackage{hyperref}
 \hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue}
 \usepackage[font=small, labelfont=bf, skip=3pt]{caption}
@@ -28,6 +27,7 @@
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{3pt}
+\setlength{\columnsep}{6mm}
 \pagestyle{empty}
 
 \begin{document}
@@ -35,7 +35,7 @@
 % ============================================================================
 % SINGLE-COLUMN HEADER (ISPRS standard)
 % ============================================================================
-
+\twocolumn[
 \begin{center}
 {\large\bfseries URBAN-RURAL STRATIFICATION FOR IMPROVED NTL-BASED\\
 POPULATION PROXY ESTIMATION USING VIIRS DATA}\vspace{10pt}
@@ -44,18 +44,19 @@ O.\ Kar$^{1}$, S.\ C K$^{1}$\vspace{4pt}
 
 {\small $^{1}$ Dept.\ of Computer Science and Engineering, IIIT Dharwad, Karnataka, India --- (23bcs089, sunil)@iiitdwd.ac.in}\vspace{8pt}
 
-\textbf{Keywords:} Night-time Lights, VIIRS, Population Estimation, Urban-Rural Stratification, KMeans, Remote Sensing\vspace{6pt}
+\textbf{Keywords:} Night-time Lights, VIIRS, Population Estimation, Urban-Rural Stratification, KMeans, Remote Sensing\vspace{8pt}
 \end{center}
 
-\textbf{Abstract.}
+\textbf{Abstract.}\vspace{4pt}
+
 We propose a data-driven urban-rural stratification method using KMeans clustering ($k{=}2$) on district-level VIIRS night-time light (NTL) features to improve population estimation. The method requires no census or land-cover inputs. Evaluated on 670 Indian districts and 695 Nigerian Local Government Areas with 5-fold cross-validation, stratification raises $R^2$ from 0.829 to 0.858 in India ($p{=}0.027$) and from 0.168 to 0.251 in Nigeria ($p{=}0.004$, +50\% relative gain). Ablation experiments confirm that NTL density normalisation is counter-productive, NDVI correction fails in tropical regions, and $k{=}2$ is optimal. All code and data are openly available.
 
-\vspace{4pt}
+\vspace{12pt}
+]
 
 % ============================================================================
 % TWO-COLUMN BODY (ISPRS standard: 82mm columns, 6mm gap)
 % ============================================================================
-\begin{multicols}{2}
 
 \section{Introduction}
 
@@ -71,7 +72,7 @@ Sub-national population estimates are needed for resource allocation, disaster r
 
 \textbf{Pipeline.} KMeans ($k{=}2$) clusters districts into urban/rural groups using only NTL features (Fig.~\ref{fig:kmeans}). Independent log-linear regressions are fitted per cluster. Evaluation: 5-fold CV with paired $t$-tests.
 
-\begin{figure}[H]
+\begin{figure}[t]
   \centering
   \includegraphics[width=\columnwidth]{kmeans.png}
   \caption{KMeans ($k{=}2$) urban-rural classification of 670 Indian districts using NTL features only. Cluster~0: 464 urban, Cluster~1: 206 rural.}
@@ -84,7 +85,7 @@ Sub-national population estimates are needed for resource allocation, disaster r
 
 Fig.~\ref{fig:scatter} shows that the raw NTL-population distribution is heavily right-skewed; after log transformation, the correlation reaches $r{=}0.822$, validating the log-linear framework. Spread at high NTL values reflects urban sensor saturation.
 
-\begin{figure}[H]
+\begin{figure}[t]
   \centering
   \includegraphics[width=\columnwidth]{scatter.png}
   \caption{NTL vs.\ population for India. Left: raw (power-law). Right: log-transformed ($r{=}0.822$).}
@@ -95,7 +96,7 @@ Fig.~\ref{fig:scatter} shows that the raw NTL-population distribution is heavily
 
 Table~\ref{tab:results} shows statistically significant gains in both countries. Nigeria's lower baseline $R^2$ is due to gas flares, Lagos sensor saturation, and low northern electrification, but stratification delivers the largest \emph{relative} gain (+50\%).
 
-\begin{table}[H]
+\begin{table}[t]
 \centering
 \caption{Cross-validated $R^2$ (5-fold, paired $t$-test).}
 \label{tab:results}
@@ -123,7 +124,7 @@ Nigeria & 695 & 0.168 & \textbf{0.251} & 0.004 \\
 
 Fig.~\ref{fig:residual} maps prediction residuals. The largest under-predictions are in Kerala (dispersed settlement, low commercial NTL) and Mumbai Suburban (informal settlements), revealing systematic NTL failure modes.
 
-\begin{figure}[H]
+\begin{figure}[t]
   \centering
   \includegraphics[width=\columnwidth]{residual.png}
   \caption{Residual map for India. Red: under-predicted, Blue: over-predicted. Systematic failures in Kerala and Mumbai.}
@@ -161,5 +162,4 @@ WorldPop, 2019. Global High Resolution Population Denominators. Univ.\ Southampt
 \end{thebibliography}
 }
 
-\end{multicols}
 \end{document}

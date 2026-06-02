@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.30)  2 JUN 2026 19:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.30)  2 JUN 2026 19:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -173,76 +173,6 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count281
-\mult@box=\box55
-\multicol@leftmargin=\dimen173
-\c@unbalance=\count282
-\c@collectmore=\count283
-\doublecol@number=\count284
-\multicoltolerance=\count285
-\multicolpretolerance=\count286
-\full@width=\dimen174
-\page@free=\dimen175
-\premulticols=\dimen176
-\postmulticols=\dimen177
-\multicolsep=\skip53
-\multicolbaselineskip=\skip54
-\partial@page=\box56
-\last@line=\box57
-\mc@boxedresult=\box58
-\maxbalancingoverflow=\dimen178
-\mult@rightbox=\box59
-\mult@grightbox=\box60
-\mult@firstbox=\box61
-\mult@gfirstbox=\box62
-\@tempa=\box63
-\@tempa=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
-\@tempa=\box68
-\@tempa=\box69
-\@tempa=\box70
-\@tempa=\box71
-\@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\c@minrows=\count287
-\c@columnbadness=\count288
-\c@finalcolumnbadness=\count289
-\last@try=\dimen179
-\multicolovershoot=\dimen180
-\multicolundershoot=\dimen181
-\mult@nat@firstbox=\box99
-\colbreak@box=\box100
-\mc@col@check@num=\count290
-)
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
 
@@ -295,15 +225,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count291
+\c@section@level=\count281
 )
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count292
+\etb@tempcnta=\count282
 )
-\@linkdim=\dimen182
-\Hy@linkcounter=\count293
-\Hy@pagecounter=\count294
+\@linkdim=\dimen173
+\Hy@linkcounter=\count283
+\Hy@pagecounter=\count284
 
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
@@ -313,7 +243,7 @@ Now handling font encoding PD1 ...
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count295
+\Hy@SavedSpaceFactor=\count285
 
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
@@ -327,9 +257,9 @@ Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count296
+\c@Hy@tempcnt=\count286
 LaTeX Info: Redefining \url on input line 4786.
-\XeTeXLinkMargin=\dimen183
+\XeTeXLinkMargin=\dimen174
 
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -339,9 +269,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count297
-\Field@Width=\dimen184
-\Fld@charsize=\dimen185
+\Fld@menulength=\count287
+\Field@Width=\dimen175
+\Fld@charsize=\dimen176
 Package hyperref Info: Hyper figures OFF on input line 6065.
 Package hyperref Info: Link nesting OFF on input line 6070.
 Package hyperref Info: Hyper index ON on input line 6073.
@@ -354,9 +284,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count298
-\c@Item=\count299
-\c@Hfootnote=\count300
+\Hy@abspage=\count288
+\c@Item=\count289
+\c@Hfootnote=\count290
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -367,8 +297,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count301
-\c@bookmark@seq@number=\count302
+\Fld@listcount=\count291
+\c@bookmark@seq@number=\count292
 
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -381,50 +311,50 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip55
+\Hy@SectionHShift=\skip53
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen186
-\captionmargin=\dimen187
-\caption@leftmargin=\dimen188
-\caption@rightmargin=\dimen189
-\caption@width=\dimen190
-\caption@indent=\dimen191
-\caption@parindent=\dimen192
-\caption@hangindent=\dimen193
+\caption@tempdima=\dimen177
+\captionmargin=\dimen178
+\caption@leftmargin=\dimen179
+\caption@rightmargin=\dimen180
+\caption@width=\dimen181
+\caption@indent=\dimen182
+\caption@parindent=\dimen183
+\caption@hangindent=\dimen184
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count303
-\c@continuedfloat=\count304
+\c@caption@flags=\count293
+\c@continuedfloat=\count294
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip56
-\enit@outerparindent=\dimen194
+\labelindent=\skip54
+\enit@outerparindent=\dimen185
 \enit@toks=\toks26
-\enit@inbox=\box101
-\enit@count@id=\count305
-\enitdp@description=\count306
+\enit@inbox=\box55
+\enit@count@id=\count295
+\enitdp@description=\count296
 )
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box102
-\beforetitleunit=\skip57
-\aftertitleunit=\skip58
-\ttl@plus=\dimen195
-\ttl@minus=\dimen196
+\ttl@box=\box56
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
+\ttl@plus=\dimen186
+\ttl@minus=\dimen187
 \ttl@toksa=\toks27
-\titlewidth=\dimen197
-\titlewidthlast=\dimen198
-\titlewidthfirst=\dimen199
+\titlewidth=\dimen188
+\titlewidthlast=\dimen189
+\titlewidthfirst=\dimen190
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
 3.
@@ -435,8 +365,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
-\l__pdf_internal_box=\box103
+\l__color_backend_stack_int=\count297
+\l__pdf_internal_box=\box57
 )
 
 LaTeX Warning: Unused global option(s):
@@ -485,14 +415,14 @@ LaTeX Font Info:    ... okay on input line 33.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=17.07164pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -502,16 +432,16 @@ LaTeX Font Info:    ... okay on input line 33.
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen256
-\scratchbox=\box104
-\nofMPsegments=\count309
-\nofMParguments=\count310
+\scratchcounter=\count298
+\scratchdimen=\dimen191
+\scratchbox=\box58
+\nofMPsegments=\count299
+\nofMParguments=\count300
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen257
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
+\MPscratchCnt=\count301
+\MPscratchDim=\dimen192
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
 \everyMPtoPDFconversion=\toks29
 )
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -539,7 +469,7 @@ Package hyperref Info: Link coloring ON on input line 33.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
-0.
+1.
 
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -547,46 +477,55 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 <kmeans.png, id=36, 605.6226pt x 570.933pt>
 File: kmeans.png Graphic file (type png)
 <use kmeans.png>
-Package pdftex.def Info: kmeans.png  used on input line 76.
-(pdftex.def)             Requested size: 236.84843pt x 223.2815pt.
+Package pdftex.def Info: kmeans.png  used on input line 77.
+(pdftex.def)             Requested size: 233.3126pt x 219.9449pt.
 <scatter.png, id=39, 1003.8303pt x 357.7365pt>
 File: scatter.png Graphic file (type png)
 <use scatter.png>
-Package pdftex.def Info: scatter.png  used on input line 89.
-(pdftex.def)             Requested size: 236.84843pt x 84.40651pt.
+Package pdftex.def Info: scatter.png  used on input line 90.
+(pdftex.def)             Requested size: 233.3126pt x 83.14557pt.
 
-[1
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-{C:/Users/ok790/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ok79
-0/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./kmeans.png> <./
-scatter.png>]
-<residual.png, id=60, 724.8681pt x 715.473pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/ok790/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/o
+k790/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+ <./kmeans.png>]
+<residual.png, id=65, 724.8681pt x 715.473pt>
 File: residual.png Graphic file (type png)
 <use residual.png>
-Package pdftex.def Info: residual.png  used on input line 128.
-(pdftex.def)             Requested size: 236.84843pt x 233.77054pt.
+Package pdftex.def Info: residual.png  used on input line 129.
+(pdftex.def)             Requested size: 233.3126pt x 230.28793pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 []\OT1/ptm/b/n/10 Code and data: [][]$\OT1/pcr/m/n/10 https : / / github . com 
 /
  []
 
-[2 <./residual.png>] (isprs_abstract.aux)
+[2 <./scatter.png> <./residual.png>] (isprs_abstract.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `isprs_abstract.out' has not changed.
 (rerunfilecheck)             Checksum: 416ADB4A7E93B8418E5604B849D9CE9F;1098.
  ) 
 Here is how much of TeX's memory you used:
- 11992 strings out of 474486
- 192720 string characters out of 5743754
- 1944542 words of memory out of 5000000
- 34105 multiletter control sequences out of 15000+600000
+ 11849 strings out of 474486
+ 190287 string characters out of 5743754
+ 1949542 words of memory out of 5000000
+ 33966 multiletter control sequences out of 15000+600000
  575340 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,709b,797s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,693b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ok790/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/ok790/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi9.pfb><C:/Users/ok790/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -598,7 +537,7 @@ rograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on isprs_abstract.pdf (2 pages, 562601 bytes).
+Output written on isprs_abstract.pdf (2 pages, 562410 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)

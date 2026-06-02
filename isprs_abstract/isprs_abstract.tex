@@ -131,9 +131,11 @@ Fig.~\ref{fig:residual} maps prediction residuals. The largest under-predictions
   \label{fig:residual}
 \end{figure}
 
-\section{Conclusions}
+\section{Scientific Contribution \& Conclusions}
 
-Unsupervised KMeans stratification on NTL features significantly improves population estimation across two structurally different countries. The method uses only freely available VIIRS data and transfers to any country with global VIIRS coverage. Nigeria's low absolute $R^2$ is a diagnostic finding: it identifies where NTL-based proxies break down. Future work includes gas flare masking, multi-year composites, and building footprint features.
+The primary contribution of this work is proving that an unsupervised, fully data-driven KMeans stratification on NTL features significantly improves population proxy estimation across two structurally diverse countries. Crucially, the method requires \emph{no} auxiliary census or land-cover data, making it directly and immediately transferable to any developing nation with global VIIRS coverage. 
+
+By separating the analysis into India (where the method pushes $R^2$ to 0.858) and Nigeria, we demonstrate both the peak capability and the boundary conditions of NTL proxies. Nigeria's low absolute $R^2$ is framed not as a failure, but as a critical diagnostic finding: it identifies exactly where and why NTL-based models break down (gas flares, low rural electrification, and urban sensor saturation). Despite these extreme conditions, stratification still yielded a +50\% relative performance gain, proving that regime-specific modelling is most vital exactly where heterogeneity is highest. Future work will integrate dedicated gas flare masking, multi-year temporal composites, and auxiliary open-source features (e.g., OpenStreetMap building footprints) to further refine these estimates in challenging topographies.
 
 \textbf{Code and data:} \url{https://github.com/light-oishikk/NTL-Population-Proxy}
 

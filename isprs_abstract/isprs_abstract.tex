@@ -42,7 +42,7 @@ POPULATION PROXY ESTIMATION USING VIIRS DATA}\vspace{10pt}
 
 O.\ Kar$^{1}$, S.\ C K$^{1}$\vspace{4pt}
 
-{\small $^{1}$ Dept.\ of Computer Science and Engineering, IIIT Dharwad, Karnataka, India --- (23bcs089, sunil)@iiitdwd.ac.in}\vspace{8pt}
+{\small $^{1}$ Dept.\ of Computer Science and Engineering, IIIT Dharwad, Karnataka, India --- (23bcs089, sunilck)@iiitdwd.ac.in}\vspace{8pt}
 
 \textbf{Keywords:} Night-time Lights, VIIRS, Population Estimation, Urban-Rural Stratification, KMeans, Remote Sensing\vspace{8pt}
 \end{center}
@@ -138,6 +138,10 @@ The primary contribution of this work is proving that an unsupervised, fully dat
 By separating the analysis into India (where the method pushes $R^2$ to 0.858) and Nigeria, we demonstrate both the peak capability and the boundary conditions of NTL proxies. Nigeria's low absolute $R^2$ is framed not as a failure, but as a critical diagnostic finding: it identifies exactly where and why NTL-based models break down (gas flares, low rural electrification, and urban sensor saturation). Despite these extreme conditions, stratification still yielded a +50\% relative performance gain, proving that regime-specific modelling is most vital exactly where heterogeneity is highest. Future work will integrate dedicated gas flare masking, multi-year temporal composites, and auxiliary open-source features (e.g., OpenStreetMap building footprints) to further refine these estimates in challenging topographies.
 
 \textbf{Code and data:} \url{https://github.com/light-oishikk/NTL-Population-Proxy}
+
+\vspace{-2pt}
+\section*{Acknowledgements}
+The authors gratefully acknowledge the Earth Observation Group (EOG) at the Payne Institute for Public Policy, Colorado School of Mines, for producing and maintaining the global VIIRS VNL V2.1 dataset. We also thank the WorldPop research group at the University of Southampton for providing the gridded population denominators. Computational resources and support were provided by the Department of Computer Science and Engineering, IIIT Dharwad.
 
 \vspace{-2pt}
 {\footnotesize

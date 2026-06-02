@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large rasters — too big for GitHub (>100MB)
+*.tif.gz
+*.h5
+*.nc
+
+# LaTeX build artifacts
+latex_src/*.aux
+latex_src/*.log
+latex_src/*.out
+latex_src/*.toc
+latex_src/*.fls
+latex_src/*.fdb_latexmk
+latex_src/*.synctex.gz
+latex_src/*.bbl
+latex_src/*.blg
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*~
+*.tmp
+extra_experiments.py
+_extracted/
+
+# Large redundant ZIPs (already have individual files)
+FINAL_REMOTE_PROJECT_OISHIK*.zip
+FINAL_remote_PROJECT_Oishik*.zip
+Oishik_Remote_Sensing_ALL_FILES.zip
+REMOTE_FINAL_PROJECT_OISHIK*.zip
+
+# Helper scripts (not needed)
+extract_*.py
+extract_*.ps1
+list_*.ps1
+make_submission_zip.ps1

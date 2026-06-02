@@ -1,9 +1,10 @@
 # NTL Population Proxy — Urban-Rural Stratification
 
-**Paper:** *Urban-Rural Stratification for NTL-Based Population Proxy Estimation* · Submitted to ICCCNT 2026
+**Paper:** *Urban-Rural Stratification for NTL-Based Population Proxy Estimation*
 
-[![IEEE Paper](https://img.shields.io/badge/Paper-PDF-red)](./Research%20Paper/RESEARCH_PAPER_FINAL_ICCCNT_Oishik.pdf)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Full Paper](https://img.shields.io/badge/Paper-PDF-red)](./Research%20Paper/RESEARCH_PAPER_FINAL_Oishik.pdf)
+[![ISPRS Abstract](https://img.shields.io/badge/ISPRS_Abstract-PDF-blue)](./Research%20Paper/ISPRS_SC_Abstract_Oishik.pdf)
+[![Code License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
 
@@ -41,11 +42,9 @@ This project proposes a simple, fully data-driven stratification approach:
 ```
 NTL-Population-Proxy/
 ├── Research Paper/
-│   └── RESEARCH_PAPER_FINAL_ICCCNT_Oishik.pdf   ← Final submission PDF
-├── latex_src/
-│   ├── main.tex                                   ← Full LaTeX source
-│   ├── *.png                                      ← All figures
-│   └── main.pdf                                   ← Compiled PDF
+│   ├── LaTeX_Source_Oishik.zip                  ← LaTeX source files
+│   ├── RESEARCH_PAPER_FINAL_Oishik.pdf          ← Full Paper PDF
+│   └── ISPRS_SC_Abstract_Oishik.pdf             ← ISPRS Abstract PDF
 ├── Collab Notebook FULL step by step/
 │   └── population_proxy (3).ipynb                 ← Full experiment notebook
 ├── Remote Datasets/
@@ -98,7 +97,7 @@ If you use this work, please cite:
   title     = {Urban-Rural Stratification for NTL-Based Population Proxy Estimation},
   author    = {Kar, Oishik and [Co-author]},
   booktitle = {Proceedings of the International Conference on Computing, Communication
-               and Networking Technologies (ICCCNT)},
+               and Networking Technologies ()},
   year      = {2026},
   note      = {Submitted}
 }
@@ -115,4 +114,4 @@ If you use this work, please cite:
 ## License
 
 Code and LaTeX source: [MIT License](LICENSE)  
-Paper text: © Authors, submitted to IEEE ICCCNT 2026
+Paper text: © Authors, submitted to IEEE  2026

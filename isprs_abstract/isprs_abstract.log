@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.30)  2 JUN 2026 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.30)  2 JUN 2026 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -544,34 +544,23 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
 (C:\Users\ok790\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-
-LaTeX Warning: Reference `fig:kmeans' on page 1 undefined on input line 72.
-
-<kmeans.png, id=35, 605.6226pt x 570.933pt>
+<kmeans.png, id=36, 605.6226pt x 570.933pt>
 File: kmeans.png Graphic file (type png)
 <use kmeans.png>
 Package pdftex.def Info: kmeans.png  used on input line 76.
 (pdftex.def)             Requested size: 236.84843pt x 223.2815pt.
-
-LaTeX Warning: Reference `fig:scatter' on page 1 undefined on input line 85.
-
-<scatter.png, id=37, 1003.8303pt x 357.7365pt>
+<scatter.png, id=39, 1003.8303pt x 357.7365pt>
 File: scatter.png Graphic file (type png)
 <use scatter.png>
 Package pdftex.def Info: scatter.png  used on input line 89.
 (pdftex.def)             Requested size: 236.84843pt x 84.40651pt.
-
-LaTeX Warning: Reference `tab:results' on page 1 undefined on input line 96.
 
 [1
 
 {C:/Users/ok790/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ok79
 0/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./kmeans.png> <./
 scatter.png>]
-
-LaTeX Warning: Reference `fig:residual' on page 2 undefined on input line 124.
-
-<residual.png, id=56, 724.8681pt x 715.473pt>
+<residual.png, id=60, 724.8681pt x 715.473pt>
 File: residual.png Graphic file (type png)
 <use residual.png>
 Package pdftex.def Info: residual.png  used on input line 128.
@@ -587,13 +576,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `isprs_abstract.out' has not changed.
 (rerunfilecheck)             Checksum: 416ADB4A7E93B8418E5604B849D9CE9F;1098.
  ) 
@@ -604,7 +586,7 @@ Here is how much of TeX's memory you used:
  34105 multiletter control sequences out of 15000+600000
  575340 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,709b,796s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,709b,797s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ok790/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/ok790/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi9.pfb><C:/Users/ok790/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -616,9 +598,9 @@ rograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ok790/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on isprs_abstract.pdf (2 pages, 562758 bytes).
+Output written on isprs_abstract.pdf (2 pages, 562601 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 131 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,7 @@
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 $srcDir    = 'c:\Users\ok790\OneDrive\Desktop\remote\latex_src'
-$zipOut    = 'c:\Users\ok790\OneDrive\Desktop\remote\Research Paper\ICCCNT_LaTeX_Source_Oishik.zip'
+$zipOut    = 'c:\Users\ok790\OneDrive\Desktop\remote\Research Paper\LaTeX_Source_Oishik.zip'
 
 # Files to include in submission zip
 $include = @(
@@ -9,7 +9,7 @@ $include = @(
     'NTL vs popu.png',
     'districts_india.png',
     'ndvi correction.png',
-    'nigga.png',
+    'study_areas.png',
     'pred vs actual.png',
     'real_first.png',
     'residual latest.png',
